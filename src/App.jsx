@@ -5,7 +5,7 @@ import "./App.css";
 const App = () => {
   return (
     <div className="bento">
-      <header className="header">
+      <header className="card header">
         <p>
           <span>JULIA</span> HUANG
         </p>
@@ -15,31 +15,33 @@ const App = () => {
           <li>CONTACT</li>
         </ul>
       </header>
-      <div className="content">
-        <h1>Artist Redefining Architecture with AI-Driven Design</h1>
+      <div className="card content">
+        <h1>
+          Artist Redefining <span>Architecture</span> with AI-Driven Design
+        </h1>
       </div>
-      <div className="image-container">
+      <div className="card image-container">
         <img src={personImg} alt="person" />
       </div>
-      <div className="projects">
+      <div className="card projects">
         <p>Musea</p>
         <img src={sofaImg} alt="sofa" />
         <p>Elara</p>
         <p>Verve</p>
         <p>Zephyr</p>
       </div>
-      <div className="about">
+      <div className="card about">
         <p>
           Julia Huang is an innovative AI artist, renowned for blending
           cutting-edge technology with creative expression. Based in LA, she
           crafts unique digital art experiences accessible globally.
         </p>
       </div>
-      <div className="contact">
+      <div className="card contact">
         <p>Have some questions?</p>
         <h2>Contact me</h2>
       </div>
-      <footer className="footer">
+      <footer className="card footer">
         <ul>
           <li>INSTAGRAM</li>
           <li>TWITTER</li>
