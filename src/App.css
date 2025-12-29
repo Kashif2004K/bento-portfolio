@@ -46,6 +46,10 @@ span {
   padding: 20px;
 }
 
+.header li {
+  font-size: 14px;
+}
+
 .content {
   grid-area: hero;
   background-color: #fadcd9;
@@ -97,6 +101,9 @@ span {
 
 .footer {
   grid-area: socials;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #fadcd9;
   height: 30px;
   height: 80px;
@@ -104,6 +111,7 @@ span {
 
 .footer ul {
   display: flex;
-  gap: 10px;
+  gap: 50px;
+  font-size: 13px;
   list-style: none;
 }
