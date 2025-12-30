@@ -49,7 +49,7 @@ const App = () => {
         </p>
       </div>
       <div className="card contact">
-        <div>
+        <div className="arrow-div2">
           <p>Have some questions?</p>
           <img src={arrowImg} alt="arrow" />
         </div>

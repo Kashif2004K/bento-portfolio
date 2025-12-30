@@ -51,9 +51,15 @@ span {
 }
 
 .content {
+  position: relative;
   grid-area: hero;
   background-color: #fadcd9;
   width: 550px;
+}
+
+.content img {
+  position: absolute;
+  right: 0;
 }
 
 .content h1 {
@@ -117,8 +123,12 @@ hr {
   background-color: #fadcd9;
 }
 
+.about img {
+  margin-top: 10px;
+}
+
 .about p {
-  margin-top: 120px;
+  margin-top: 60px;
   padding-bottom: 20px;
   width: 290px;
   font-size: 20px;
@@ -127,6 +137,16 @@ hr {
 .contact {
   grid-area: contact;
   background-color: #f8afa6;
+}
+
+.arrow-div2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow-div2 img {
+  width: 36px;
+  margin-right: 20px;
 }
 
 .contact p {
@@ -138,7 +158,7 @@ hr {
 .contact h2 {
   font-weight: normal;
   font-size: 55px;
-  margin-top: 150px;
+  margin-top: 120px;
   padding-left: 20px;
 }
 
