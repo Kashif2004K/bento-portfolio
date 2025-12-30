@@ -96,7 +96,16 @@ hr {
   margin: 25px auto;
 }
 
-.projects img {
+.arrow-div1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow-div1 img {
+  margin-right: 30px;
+}
+
+.sofa {
   width: 410px;
   padding: 0 20px;
   border-radius: 35px;
