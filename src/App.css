@@ -53,14 +53,14 @@ span {
 .content {
   grid-area: hero;
   background-color: #fadcd9;
-  width: 600px;
+  width: 550px;
 }
 
 .content h1 {
   text-align: justify;
-  font-size: 54px;
-  margin-top: 150px;
-  width: 506px;
+  font-size: 52px;
+  margin-top: 180px;
+  width: 490px;
   padding-left: 20px;
   padding-right: 50px;
 }
@@ -94,9 +94,29 @@ span {
   background-color: #fadcd9;
 }
 
+.about p {
+  margin-top: 140px;
+  padding-bottom: 20px;
+  width: 290px;
+  font-size: 20px;
+}
+
 .contact {
   grid-area: contact;
   background-color: #f8afa6;
+}
+
+.contact p {
+  font-size: 15px;
+  width: 100px;
+  margin: 30px;
+}
+
+.contact h2 {
+  font-weight: normal;
+  font-size: 55px;
+  margin-top: 180px;
+  padding-left: 20px;
 }
 
 .footer {
