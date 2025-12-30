@@ -26,8 +26,11 @@ const App = () => {
       <div className="card projects">
         <p>Musea</p>
         <img src={sofaImg} alt="sofa" />
+        <hr />
         <p>Elara</p>
+        <hr />
         <p>Verve</p>
+        <hr />
         <p>Zephyr</p>
       </div>
       <div className="card about">
